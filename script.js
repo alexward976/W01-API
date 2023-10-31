@@ -27,7 +27,7 @@ function displayProfessionalName(n) {
 
 function displayImage(img) {
   let image = document.getElementById('professionalImage');
-  image.src = `data:image/png;base64, ${img}`;
+  image.src = `${img}`;
 }
 function displayPrimaryDescription(data) {
   let nameLink = document.getElementById('nameLink');
